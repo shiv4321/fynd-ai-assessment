@@ -3,7 +3,7 @@
 
 // IMPORTANT: Update this URL to your deployed backend URL after deployment
 // For local development, use: http://localhost:5000
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://fynd-ai-assessment.onrender.com/';
 
 // Get DOM elements
 const reviewForm = document.getElementById('reviewForm');
@@ -160,4 +160,5 @@ function resetForm() {
     errorContainer.style.display = 'none';
     reviewForm.style.display = 'block';
     submitBtn.disabled = false;
+
 }
