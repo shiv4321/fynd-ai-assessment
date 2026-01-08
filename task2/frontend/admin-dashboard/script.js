@@ -3,7 +3,7 @@
 
 // IMPORTANT: Update this URL to your deployed backend URL after deployment
 // For local development, use: http://localhost:5000
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://fynd-ai-assessment.onrender.com/';
 
 // State management
 let allSubmissions = [];
@@ -239,4 +239,5 @@ function hideLoading() {
 function showError(message) {
     console.error(message);
     hideLoading();
+
 }
